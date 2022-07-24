@@ -38,7 +38,7 @@ dj.on("message", message => {
   }
 });
 //////////
-dj2.login("");
+dj2.login("MTAwMDc5OTk5NzA3NzUwNDA1MQ.GKRVxX.v9kipTPusRp_Z_8VGRkex048kiFtXEbk5d4OfI");
 dj2.on("message", message => {
   if (message.channel.id === "NONE") {
     message.react("🤍").then(() => {
